@@ -28,7 +28,7 @@ header a:hover {
 }
 
 .max-width {
-  max-width: 1800px;
+  margin: 0 15%;
 }
 
 #main-navbar {
@@ -71,9 +71,10 @@ header a:hover {
   background-color: #1abc9c;
 }
 
-.container-fluid img {
+.box-img img {
   height: auto;
   width: 245px;
+  margin: 10px;
 }
 
 .container-fluid {
@@ -99,21 +100,21 @@ header a:hover {
 
 /* SEZIONE PORTFOLIO */
 
-.portfolio {
-  margin-bottom: 50px;
+#portfolio {
+  margin-bottom: 94px;
 }
 
-.portfolio h2 {
+#portfolio h2 {
   font-size: 3.5em;
   font-weight: 700;
   color: #2c3e50;
 }
 
-.portfolio .row {
+#portfolio .row {
   margin: 0 auto;
 }
 
-.portfolio img {
+#portfolio img {
   border-radius: 5px;
   width: auto;
   height: 250px;
@@ -125,6 +126,10 @@ header a:hover {
 }
 
 /* SEZIONE ABOUT */
+
+#about {
+  margin-top: 94px;
+}
 
 .subtitle h2 {
   font-size: 3.5em;
@@ -139,11 +144,11 @@ header a:hover {
   font-weight: normal;
 }
 
-.row .bottone {
+.row .download-free {
   text-align: center;
 }
 
-.bottone a {
+.download-free a {
   font-size: 1.4em;
   padding: 20px;
   border: 1px solid #000;
@@ -153,4 +158,37 @@ header a:hover {
 
 #download-icon {
   margin-right: 15px;
+}
+
+/* SEZIONE CONTACT */
+#contact-me {
+  margin: 94px 0 70px;;
+}
+
+.widgets-form {
+  border: none;
+  font-size: 1.4em;
+  font-weight: normal;
+  padding: 20px;
+}
+
+.border-fix-widgets-form {
+  border-bottom: 1px solid lightgrey;
+  margin: 0 20px;
+}
+
+.bottone {
+  margin-top: 40px;
+}
+
+
+.send-message {
+  background-color: #1abc9c;
+  padding: 20px;
+  color: #FFF;
+  font-size: 1.4em;
+  font-weight: normal;
+  border: none;
+  border-radius: 4px;
+  margin: 0 20px;
 }
