@@ -33,7 +33,6 @@ header a:hover {
 
 #main-navbar {
   background-color: #2c3e50;
-  height: 101px;
 }
 
 .logo, .search-navbar {
@@ -67,7 +66,8 @@ header a:hover {
 /* SEZIONE JUMBOTRON */
 
 .jumbotron {
-  margin-top: 101px;
+  margin-top: 94px;
+  padding: 120px 0;
   background-color: #1abc9c;
 }
 
@@ -131,4 +131,26 @@ header a:hover {
   font-weight: 700;
   color: #2c3e50;
   text-align: center;
+}
+
+.row .paragraph {
+  padding: 50px;
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+.row .bottone {
+  text-align: center;
+}
+
+.bottone a {
+  font-size: 1.4em;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+}
+
+#download-icon {
+  margin-right: 15px;
 }
